@@ -2,7 +2,7 @@
 This repo is a cdn that will convert your voice into live text on input fields in a web page 
 use the cdn link  before the body tag
 ```
-<script src ="https://cdn.jsdelivr.net/gh/widecity-developers/widy_mic/mic.js"></script>
+<script src ="https://cdn.jsdelivr.net/gh/widecity-developers/widy_mic/mic_v1.js"></script>
 ```
 Just add the class to use
 ```
