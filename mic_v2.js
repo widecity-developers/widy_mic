@@ -1,4 +1,4 @@
-if ("webkitSpeechRecognition" in window) {
+ if ("webkitSpeechRecognition" in window) {
             speechRecognition = new webkitSpeechRecognition();  
             let mic_status = false
 
@@ -38,6 +38,9 @@ if ("webkitSpeechRecognition" in window) {
                             }
                             speechRecognition.start();
                             console.log('listening...')
+                            widy_mic_icon.src = "https://th.bing.com/th/id/R.e7f1336bc8acb0994878e811aad6cf91?rik=yp1ewg64euvIaA&riu=http%3a%2f%2fclipart-library.com%2fimg1%2f1036648.png&ehk=FBwKLIiOscPaQsiNDjAfqBQ7c1IPxDkoE6KflJiPu%2bg%3d&risl=&pid=ImgRaw&r=0"
+                            widy_mic_icon.style.width = '10px'
+                            widy_mic_icon.style.margin = '5px'
                             }
                     else {
                             mic_status= false;
